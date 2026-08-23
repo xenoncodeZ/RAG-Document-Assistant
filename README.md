@@ -59,6 +59,18 @@ Grounded answer
 - A text-based PDF. Scanned/image-only PDFs are rejected because text extraction is handled by `pypdf` without OCR.
 - Internet access on first use if the local embedding model must be downloaded, and for calls to the remote LLM endpoint.
 
+## 🌐 Live Demo & Quickstart (No Setup Required)
+
+Experience the live application deployed on Streamlit Community Cloud:
+
+👉 **[Launch RAG Document Assistant](https://rag-document-assistant07.streamlit.app/)** 
+
+### How to use the live app:
+1. **Enter Your API Key:** Paste your API key (e.g., Google AI Studio / Gemini, OpenAI, or Groq) in the left sidebar.
+2. **Upload Documents:** Drag and drop one or more PDF files.
+3. **Index & Process:** Click **"Index Documents"** to extract text, generate vector embeddings, and store chunks in ChromaDB.
+4. **Chat & Retrieve:** Ask questions in the chat box. The assistant retrieves relevant semantic chunks and generates strictly grounded answers.
+
 ## Installation
 
 ### Windows PowerShell
