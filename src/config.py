@@ -1,7 +1,7 @@
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 class Settings(BaseSettings):
-    llm_api_key: str 
+    llm_api_key: str = ''
     llm_base_url: str = "https://generativelanguage.googleapis.com/v1beta/openai/"  # Default to OpenAI, but .env overrides this!
     llm_model_name: str = "gemini-2.5-flash"
     embedding_model_name: str = "all-MiniLM-L6-v2"
