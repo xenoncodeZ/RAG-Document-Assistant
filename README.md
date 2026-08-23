@@ -236,4 +236,5 @@ Check the API key, `LLM_BASE_URL`, and `LLM_MODEL_NAME`. The configured endpoint
 
 ## License
 
-No license file is currently included. Add a license before distributing this project.
+MIT License
+
