@@ -1,0 +1,29 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Environment Secrets & API Keys
+.env
+.env.local
+.env.*
+
+# Vector Database Storage & Cache
+chroma_db/
+.cache/
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Operating System & IDE Artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Streamlit Local Runtime
+.streamlit/secrets.toml
